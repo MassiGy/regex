@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex email validation</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        .form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .valid {
+            color: green;
+            
+        }
+        .invalid {
+            color: red;
+        }
+        </style>
+</head>
+<body>
+    <form class="form" novalidate  autocomplete="off">
+        <input type="password"  id="input" >
+        <p id="feedback"></p>
+    </form>
+</body>
+<script src="./script.js"></script>
+</html>
